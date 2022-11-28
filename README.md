@@ -73,6 +73,14 @@ A project that combines Terraform &amp; Kubernetes
 
 **Step 4 (check all resources are running)** 
 
+**Optional (Advaned):**
+
+- Setup a CI/CD workflow with GitHub Actions that runs your Terraform plan & apply.
+
+**Advanced 2.0:**
+
+- If you want to go further and get the A+++, setup ArgoCD to run your K8s resources (you will need manifest files)
+
 **Notes:** 
 
 - Save this on your GitHub

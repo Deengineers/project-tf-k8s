@@ -36,7 +36,7 @@ A project that combines Terraform &amp; Kubernetes
     
 - 
     
-    Image: `kodekloud/webapp-color:v1`
+    Image: `nginx`
     
 - 
     

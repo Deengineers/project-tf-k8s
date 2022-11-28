@@ -6,7 +6,7 @@ A project that combines Terraform &amp; Kubernetes
 
 **Pre-req tasks:**
 
-- Create an EKS cluster on your AWS account - use a t3.micro or medium.
+- Create an EKS cluster on your AWS account - use a t3.micro or medium machine. Figure out the rest of the configuration. You may search "how to deploy a simple EKS cluster with Terraform" and do what you have to do.
 - Connect to your cluster locally and use `kubectl get nodes` and `kubectl get pods -A` to see that cluster is working after its deployed.
 - You also need your kubeconfig saved and also know where its stored. 
 
@@ -74,3 +74,5 @@ A project that combines Terraform &amp; Kubernetes
 - Save this on your GitHub
 - Make sure to setup billing alerts on your AWS account (we are not responsible for any charges) - so shutdown any instances or clusters
 - Delete all AWS resources after use!
+- All details required are given to you.
+- You have Google, so please use it!

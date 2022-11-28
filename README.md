@@ -81,6 +81,11 @@ A project that combines Terraform &amp; Kubernetes
 
 - If you want to go further and get the A+++, setup ArgoCD to run your K8s resources (you will need manifest files)
 
+## I have finished this project, what is next?
+
+- Submit your repo to one of the admins or @DevOps-Experts in our Discord and we will review it for you. Add this to your CV once completed
+- We will release a part 2 of this project series soon inshaAllah!
+
 **Notes:** 
 
 - Save this on your GitHub

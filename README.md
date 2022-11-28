@@ -3,10 +3,18 @@ A project that combines Terraform &amp; Kubernetes
 
 - Install Terraform 1.1.15 on your machine and setup an EKS cluster on AWS with Terraform
 
+
+**Pre-req tasks:**
+
+- Create an EKS cluster on your AWS account - use a t3.micro or medium.
+- Connect to your cluster locally and use `kubectl get nodes` and `kubectl get pods -A` to see that cluster is working after its deployed.
+- You also need your kubeconfig saved and also know where its stored. 
+
 **Step 1 (provider config)**
 
-- Configure `terraform and provider` settings within `provider.tf` file with following specifications:Configure terraform to use `hashicorp/kubernetes` provider.
-- 
+
+- Configure `terraform and provider` settings within `provider.tf` file with following specifications:
+- Configure terraform to use `hashicorp/kubernetes` provider.
     
     Specify the provider's local name: `kubernetes`
     

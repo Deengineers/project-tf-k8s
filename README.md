@@ -3,6 +3,10 @@ A project that combines Terraform &amp; Kubernetes
 
 - Install Terraform 1.1.15 on your machine and setup an EKS cluster on AWS with Terraform
 
+## How do I get started?
+
+- Fork this repo and clone it to your local machine. Then get started. Any questions, tag our @DevOps-Experts on Discord. 
+
 
 **Pre-req tasks:**
 

@@ -1,0 +1,30 @@
+name: Terraform
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  plan:
+    name: Terraform Plan
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Terraform
+      uses: hashicorp/setup-terraform@v1
+      with:
+        terraform_version: latest
+    - name: Run Terraform Plan
+      run: terraform plan
+  apply:
+    name: Terraform Apply
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Terraform
+      uses: hashicorp/setup-terraform@v1
+      with:
+        terraform_version: latest
+    - name: Run Terraform Apply
+      run: terraform apply -auto-approve

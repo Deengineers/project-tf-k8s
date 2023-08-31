@@ -1,4 +1,4 @@
-# tf-k8s-project
+# project-tf-k8s
 A project that combines Terraform &amp; Kubernetes
 
 - Install Terraform 1.1.15 on your machine and setup an EKS cluster on AWS with Terraform
